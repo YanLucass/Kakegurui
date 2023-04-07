@@ -1,0 +1,99 @@
+:root {
+   --cor1: rgb(153, 2, 2); 
+}
+
+* {
+    margin: 0;
+}
+body {
+    background-color: var(--cor1);
+    
+    
+    
+}
+
+header {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 0;
+    background-image: url(img/testes.jpg);
+    padding: 35px;
+    background-position: top left;
+}
+
+nav {
+
+    background-color: rgb(230, 3, 41);
+    padding: 5px;
+    
+}
+
+nav a {
+    padding-left: 10px;
+    font-size: 1.1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    color: var(--cor1);
+}
+
+header h1 {
+
+    color: white;
+}
+
+main {
+    
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    
+    width: 60%;
+    margin: 80px auto 200px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+
+}
+main h1 {
+    font-size: 1.8em;
+    color: red;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+
+main article img {
+
+    display: block;
+    width: 200px;
+    margin: 20px auto 0px auto;
+}
+
+
+main > article > a {
+
+    display: block;
+    background-color: red;
+    width: 20%;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    margin: 50px auto 0px auto;
+    text-decoration: none;
+    
+
+}
+
+
+p {
+    margin-bottom: 7px;
+    text-align: justify;
+    
+}
+
