@@ -53,3 +53,11 @@
     height: 80%;
     border: 2px solid black;
  }
+
+
+ #trocarVideo {
+
+    color: white;
+    padding: 5px;
+    background-color: var(--cor3);
+ }
